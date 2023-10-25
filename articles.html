@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design-spb</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header substrate">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header__logo">
+                    <a href="index.html" class="header__title header-text">Дизайн спб</a>
+                </div>
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="o-kompanii.html" class="nav__link header-text">О компании</a>
+                        <ul>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="reviews.html">Отзывы</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="apartaments.html" class="nav__link header-text">Дизайн - проект</a>
+                        <ul>
+                            <li><a href="apartaments.html">Дизайн интерьера квартиры</a></li>
+                            <li><a href="houses.html">Дизайн интерьера дома</a></li>
+                            <li><a href="commercial-premisess.html">Дизайн интерьера коммерч. помещения</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link header-text">Портфолио</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="prices.html" class="nav__link header-text">Цены</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link header-text">Услуги</a>
+                        <ul>
+                            <li><a href="express.html">Дизайн Экспресс</a></li>
+                            <li><a href="technical.html">Технический проект</a></li>
+                            <li><a href="comfort.html">Дизайн Комфорт</a></li>
+                            <li><a href="exclusive.html">Дизайн Эксклюзив</a></li>
+                            <li><a href="rendering-3d.html">3d визуализация</a></li>
+                            <li><a href="development.html">Планировка</a></li>
+                            <li><a href="redevelopment.html">Перепланировка</a></li>
+                            <li><a href="architecture.html">Архитектура и проектирование домов</a></li>
+                            <li><a href="author-vision.html">Авторский надзор</a></li>
+                            <li><a href="homestaging.html">Хоумстейджинг</a></li>
+                            <li><a href="equipment.html">Комплектация</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacts.html" class="nav__link header-text">Контакты</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="mobile-nav">
+                        <a href="index.html" class="header-text header__title nav-item nav-logo">Дизайн спб</a>
+                        <div class="header__contacts-tablet">
+                            <div class="img-wrapper">
+                                <a href="#" class="header__link">
+                                    <img class="telegram header__social-logo icon-white" src="img/telegram.svg"
+                                        alt="telegram">
+                                    <img class="telegram header__social-logo icon-black none"
+                                        src="img/telegram-black.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <div class="img-wrapper">
+                                <a href="#" class="header__link">
+                                    <img class="whatsapp header__social-logo icon-white" src="img/whatsapp.svg"
+                                        alt="whatsapp">
+                                    <img class="whatsapp header__social-logo icon-black none"
+                                        src="img/whatsapp-black.svg" alt="whatsapp">
+                                </a>
+                            </div>
+                            <div class="link-wrapper">
+                                <a href="tel:8900000000" class="tel header-text">+7 ( 812 ) 670-07-47</a>
+                            </div>
+                        </div>
+                        <button type="button" id="menu-toggle" class="menu-burger"><i class="menu-item"></i></button>
+                    </div>
+                    <div class="mobile-nav_bottom-wrapper">
+                        <ul class="mobile-nav_bottom mobile-nav_bottom-deactive">
+                            <li class="accordeon-item burger-item">
+                                <a href="portfolio.html" class="burger__title">Портфолио</a>
+                                <a href="prices.html" class="burger__title">Цены</a>
+                                <a href="contacts.html" class="burger__title">Контакты</a>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_first">
+                                <input id="dropdown-item-1" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-1">О компании</label>
+                                <div class="dropdown-item-content">
+                                    <a href="blog.html" class="burger__link">Блог</a>
+                                    <a href="reviews.html" class="burger__link">Отзывы</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_second">
+                                <input id="dropdown-item-2" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-2">Дизайн проект</label>
+                                <div class="dropdown-item-content">
+                                    <a href="apartaments.html" class="burger__link">Дизайн квартир</a>
+                                    <a href="houses.html" class="burger__link">Дизайн домов</a>
+                                    <a href="commercial-premisess.html" class="burger__link">Дизайн комм. <br>
+                                        недвижимости</a>
+                                </div>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_third">
+                                <input id="dropdown-item-3" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-3">Услуги</label>
+                                <div class="dropdown-item-content">
+                                    <a href="express.html" class="burger__link">Дизайн экспресс</a>
+                                    <a href="technical.html" class="burger__link">Технический проект</a>
+                                    <a href="comfort.html" class="burger__link">Дизайн комфорт</a>
+                                    <a href="exclusive.html" class="burger__link">Дизайн эксклюзив</a>
+                                    <a href="rendering-3d.html" class="burger__link">3D визуализация</a>
+                                    <a href="architecture.html" class="burger__link">Архитектурный проект</a>
+                                    <a href="homestaging.html" class="burger__link">Хоумстейджинг</a>
+                                    <a href="equipment.html" class="burger__link">Комплектация</a>
+                                </div>
+                            </li>
+                            <div class="header__contacts-mobile">
+                                <div class="mobile-contacts">
+                                    <div class="img-wrapper">
+                                        <a href="project-1.html" class="header__link">
+                                            <img class="telegram header__social-logo" src="img/telegram.svg"
+                                                alt="telegram">
+                                        </a>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <a href="#" class="header__link">
+                                            <img class="whatsapp header__social-logo" src="img/whatsapp.svg"
+                                                alt="whatsapp">
+                                        </a>
+                                    </div>
+                                    <div class="link-wrapper">
+                                        <a href="tel:8900000000" class="tel">+7 ( 812 ) 670-07-47</a>
+                                    </div>
+                                </div>
+                                <div class="header__call-button-mobile">
+                                    <button class="btn btn_white call-btn">
+                                        <a href="tel:8900000000" class="link-tel">Позвоните мне</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__contacts">
+                    <div class="img-wrapper">
+                        <a href="project-1.html" class="header__link">
+                            <img class="telegram header__social-logo icon-white" src="img/telegram.svg" alt="telegram">
+                            <img class="telegram header__social-logo icon-black none" src="img/telegram-black.svg"
+                                alt="telegram">
+                        </a>
+                    </div>
+                    <div class="img-wrapper">
+                        <a href="#" class="header__link">
+                            <img class="whatsapp header__social-logo icon-white" src="img/whatsapp.svg" alt="whatsapp">
+                            <img class="whatsapp header__social-logo icon-black none" src="img/whatsapp-black.svg"
+                                alt="whatsapp">
+                        </a>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="tel:8900000000" class="tel header-text">+7 ( 812 ) 670-07-47</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main articles">
+        <section class="section section-articles" id="1">
+            <div class="section-container">
+                <div class="section-content-wrapper">
+                    <div class="section-vertical-line">
+                        <div class="breadcrumbs" id="breadcrumbs">
+                            <a href="/">Главная</a> <span>/</span>
+                            <a href="/раздел-1/">Раздел 1</a> <span>/</span>
+                            <a href="/раздел-1/подраздел-1/">Подраздел 1</a> <span>/</span>
+                            Текущая страница
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <h1 class="section__title">Название статьи</h1>
+                        <p class="section__subtitle">Описание статьи</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section article article_first" id="2">
+            <div class="container">
+                <div class="article-wrapper article-wrapper_first">
+                    <h3 class="article__title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="article__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                    <p class="article__subtitle article__subtitle_bottom">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Cras egestas congue augue in porttitor. Praesent suscipit sit amet
+                        augue et
+                        vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae arcu. In tempus lacinia metus id
+                        consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis tincidunt malesuada. Quisque
+                        luctus
+                        vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non arcu porta, gravida
+                        lobortis
+                        turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                    <div class="article-img-wrapper">
+                        <img src="img/article-1.png" alt="картинка статьи" class="article__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section article article_second" id="3">
+            <div class="container">
+                <div class="article-wrapper">
+                    <h3 class="article__title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="article__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                    <p class="article__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Cras egestas congue augue in porttitor. Praesent suscipit sit amet
+                        augue et
+                        vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae arcu. In tempus lacinia metus id
+                        consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis tincidunt malesuada. Quisque
+                        luctus
+                        vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non arcu porta, gravida
+                        lobortis
+                        turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section article article_third" id="4">
+            <div class="container">
+                <div class="article_third-wrapper">
+                    <div class="article-content">
+                        <h4 class="article__title_small">Lorem ipsum dolor sit amet.</h4>
+                        <p class="article__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                            egestas congue augue in porttitor. Praesent suscipit sit amet augue et vulputate. Nunc ac
+                            nisl ac turpis feugiat venenatis a vitae arcu. In tempus lacinia metus id consectetur. Proin
+                            sit amet mauris sem. </p>
+                        <p class="article__subtitle">Morbi bibendum erat quis tincidunt malesuada. Quisque luctus
+                            vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non arcu porta, gravida
+                            lobortis turpis accumsan. Fusce vitae gravida</p>
+                    </div>
+                    <div class="article-img-wrapper">
+                        <img src="img/article-2.png" alt="картинка статьи" class="article__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section styles-about target-block" id="5">
+            <div class="container">
+                <div class="styles-about-wrapper">
+                    <h2 class="about__title">Заголовок текстового блока</h2>
+                    <p class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas
+                        congue augue in porttitor. Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis
+                        feugiat venenatis a vitae arcu. In tempus lacinia metus id consectetur. Proin sit amet mauris
+                        sem. Morbi bibendum erat quis tincidunt malesuada. Quisque luctus vulputate nisi, ut commodo
+                        nunc sodales quis. Fusce posuere justo non arcu porta, gravida lobortis turpis accumsan. Fusce
+                        vitae gravida</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section all-articles target-block" id="6">
+            <div class="container">
+                <div class="all-articles-wrapper">
+                    <h2 class="all-articles__title">Смотрите также</h2>
+                    <div class="all-articles-items">
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Etiam nec elementum tur...</p>
+                                <a href="#articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Etiam nec elementum tur...</p>
+                                <a href="#articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Etiam nec elementum tur...</p>
+                                <a href="#articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Etiam nec elementum tur...</p>
+                                <a href="articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section prices-consultation target-block" id="consultation">
+            <div class="container">
+                <div class="prices-consultation-wrapper">
+                    <h3 class="prices-consultation__title">Получите консультацию дизайнера <br> по вашему проекту</h3>
+                    <form class="prices-consultation-form">
+                        <input type="text" class="prices-consultation__input prices-consultation__item"
+                            placeholder="Ваше имя">
+                        <input class="prices-consultation__input tel prices-consultation__item"
+                            placeholder="Ваш телефон" type="tel" name="tel">
+                        <a href="#" class="prices-consultation__link"><input type="submit"
+                                class="btn btn_yellow prices-consultation__button prices-consultation__item"
+                                value="Получить консультацию"></a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="section section_bottom target-block" id="8">
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="footer-requisites accordeon-item footer-item">
+                            <a href="index.html" class="footer__logo">Logo</a>
+                            <a href="portfolio.html" class="footer__title">Портфолио</a>
+                            <a href="contacts.html" class="footer__title">Контакты</a>
+                            <a href="prices.html" class="footer__title">Цены</a>
+                            <div class="links accordeon-content links footer-contacts-desktop">
+                                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                                <p class="footer__rights">Copyright ©2020-2022 <br> Все права защищены</p>
+                            </div>
+                        </div>
+                        <div class="footer-interior dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-4" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-4">О компании</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="blog.html" class="footer__link">Блог</a>
+                                <a href="reviews.html" class="footer__link">Отзывы</a>
+                                
+                            </div>
+                        </div>
+                        <div class="footer-design dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-5" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-5">Дизайн проект</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="apartaments.html" class="footer__link">Дизайн квартир</a>
+                                <a href="houses.html" class="footer__link">Дизайн домов</a>
+                                <a href="commercial-premisess.html" class="footer__link">Дизайн комм. <br>
+                                    недвижимости</a>
+                            </div>
+                        </div>
+                        <div class="footer-services dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-6" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-6">Услуги</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="express.html" class="footer__link">Дизайн экспресс</a>
+                                <a href="technical.html" class="footer__link">Технический проект</a>
+                                <a href="comfort.html" class="footer__link">Дизайн комфорт</a>
+                                <a href="exclusive.html" class="footer__link">Дизайн эксклюзив</a>
+                                <a href="rendering-3d.html" class="footer__link">3D визуализация</a>
+                                <a href="architecture.html" class="footer__link">Архитектурный проект</a>
+                                <a href="homestaging.html" class="footer__link">Хоумстейджинг</a>
+                                <a href="equipment.html" class="footer__link">Комплектация/a>
+                            </div>
+                        </div>
+                        <div class="footer-contacts accordeon-item footer-item">
+                            <a href="tel:88126700747" class="footer__num">+7 ( 812 ) 670-07-47</a>
+                            <p class="footer__schedule">Пн - Пт 9:00 - 19:00</p>
+                            <a href="#"><button class="btn btn_white footer-call">Перезвоните мне</button></a>
+                            <div class="footer-social">
+                                <a href="#"><img src="img/instagram.svg" alt="instagram"
+                                        class="instagram footer__social-logo"></a>
+                                <a href="#"><img src="img/youtube.svg" alt="youtube"
+                                        class="youtube footer__social-logo"></a>
+                                <a href="#"><img src="img/telegram.svg" alt="telegram"
+                                        class="telegram footer__social-logo"></a>
+                            </div>
+                            <div class="links footer-contacts-mobile">
+                                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                                <p class="footer__rights">Copyright ©2020-2022 <br> Все права защищены</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

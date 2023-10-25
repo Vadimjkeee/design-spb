@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design-spb</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header substrate">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header__logo">
+                    <a href="index.html" class="header__title header-text">Дизайн спб</a>
+                </div>
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="o-kompanii.html" class="nav__link header-text">О компании</a>
+                        <ul>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="reviews.html">Отзывы</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="apartaments.html" class="nav__link header-text">Дизайн - проект</a>
+                        <ul>
+                            <li><a href="apartaments.html">Дизайн интерьера квартиры</a></li>
+                            <li><a href="houses.html">Дизайн интерьера дома</a></li>
+                            <li><a href="commercial-premisess.html">Дизайн интерьера коммерч. помещения</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link header-text">Портфолио</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="prices.html" class="nav__link header-text">Цены</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link header-text">Услуги</a>
+                        <ul>
+                            <li><a href="express.html">Дизайн Экспресс</a></li>
+                            <li><a href="technical.html">Технический проект</a></li>
+                            <li><a href="comfort.html">Дизайн Комфорт</a></li>
+                            <li><a href="exclusive.html">Дизайн Эксклюзив</a></li>
+                            <li><a href="rendering-3d.html">3d визуализация</a></li>
+                            <li><a href="development.html">Планировка</a></li>
+                            <li><a href="redevelopment.html">Перепланировка</a></li>
+                            <li><a href="architecture.html">Архитектура и проектирование домов</a></li>
+                            <li><a href="author-vision.html">Авторский надзор</a></li>
+                            <li><a href="homestaging.html">Хоумстейджинг</a></li>
+                            <li><a href="equipment.html">Комплектация</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacts.html" class="nav__link header-text">Контакты</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="mobile-nav">
+                        <a href="index.html" class="header-text header__title nav-item nav-logo">Дизайн спб</a>
+                        <div class="header__contacts-tablet">
+                            <div class="img-wrapper">
+                                <a href="#" class="header__link">
+                                    <img class="telegram header__social-logo icon-white" src="img/telegram.svg"
+                                        alt="telegram">
+                                    <img class="telegram header__social-logo icon-black none"
+                                        src="img/telegram-black.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <div class="img-wrapper">
+                                <a href="#" class="header__link">
+                                    <img class="whatsapp header__social-logo icon-white" src="img/whatsapp.svg"
+                                        alt="whatsapp">
+                                    <img class="whatsapp header__social-logo icon-black none"
+                                        src="img/whatsapp-black.svg" alt="whatsapp">
+                                </a>
+                            </div>
+                            <div class="link-wrapper">
+                                <a href="tel:8900000000" class="tel header-text">+7 ( 812 ) 670-07-47</a>
+                            </div>
+                        </div>
+                        <button type="button" id="menu-toggle" class="menu-burger"><i class="menu-item"></i></button>
+                    </div>
+                    <div class="mobile-nav_bottom-wrapper">
+                        <ul class="mobile-nav_bottom mobile-nav_bottom-deactive">
+                            <li class="accordeon-item burger-item">
+                                <a href="portfolio.html" class="burger__title">Портфолио</a>
+                                <a href="prices.html" class="burger__title">Цены</a>
+                                <a href="contacts.html" class="burger__title">Контакты</a>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_first">
+                                <input id="dropdown-item-1" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-1">О компании</label>
+                                <div class="dropdown-item-content">
+                                    <a href="blog.html" class="burger__link">Блог</a>
+                                    <a href="reviews.html" class="burger__link">Отзывы</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_second">
+                                <input id="dropdown-item-2" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-2">Дизайн проект</label>
+                                <div class="dropdown-item-content">
+                                    <a href="apartaments.html" class="burger__link">Дизайн квартир</a>
+                                    <a href="houses.html" class="burger__link">Дизайн домов</a>
+                                    <a href="commercial-premisess.html" class="burger__link">Дизайн комм. <br>
+                                        недвижимости</a>
+                                </div>
+                            </li>
+                            <li class="dropdown-item burger-item dropdown-item_third">
+                                <input id="dropdown-item-3" type="checkbox" name="dropdown-items"
+                                    class="dropdown-item-toogle">
+                                <label for="dropdown-item-3">Услуги</label>
+                                <div class="dropdown-item-content">
+                                    <a href="express.html" class="burger__link">Дизайн экспресс</a>
+                                    <a href="technical.html" class="burger__link">Технический проект</a>
+                                    <a href="comfort.html" class="burger__link">Дизайн комфорт</a>
+                                    <a href="exclusive.html" class="burger__link">Дизайн эксклюзив</a>
+                                    <a href="rendering-3d.html" class="burger__link">3D визуализация</a>
+                                    <a href="architecture.html" class="burger__link">Архитектурный проект</a>
+                                    <a href="homestaging.html" class="burger__link">Хоумстейджинг</a>
+                                    <a href="equipment.html" class="burger__link">Комплектация</a>
+                                </div>
+                            </li>
+                            <div class="header__contacts-mobile">
+                                <div class="mobile-contacts">
+                                    <div class="img-wrapper">
+                                        <a href="project-1.html" class="header__link">
+                                            <img class="telegram header__social-logo" src="img/telegram.svg"
+                                                alt="telegram">
+                                        </a>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <a href="#" class="header__link">
+                                            <img class="whatsapp header__social-logo" src="img/whatsapp.svg"
+                                                alt="whatsapp">
+                                        </a>
+                                    </div>
+                                    <div class="link-wrapper">
+                                        <a href="tel:8900000000" class="tel">+7 ( 812 ) 670-07-47</a>
+                                    </div>
+                                </div>
+                                <div class="header__call-button-mobile">
+                                    <button class="btn btn_white call-btn">
+                                        <a href="tel:8900000000" class="link-tel">Позвоните мне</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__contacts">
+                    <div class="img-wrapper">
+                        <a href="project-1.html" class="header__link">
+                            <img class="telegram header__social-logo icon-white" src="img/telegram.svg" alt="telegram">
+                            <img class="telegram header__social-logo icon-black none" src="img/telegram-black.svg"
+                                alt="telegram">
+                        </a>
+                    </div>
+                    <div class="img-wrapper">
+                        <a href="#" class="header__link">
+                            <img class="whatsapp header__social-logo icon-white" src="img/whatsapp.svg" alt="whatsapp">
+                            <img class="whatsapp header__social-logo icon-black none" src="img/whatsapp-black.svg"
+                                alt="whatsapp">
+                        </a>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="tel:8900000000" class="tel header-text">+7 ( 812 ) 670-07-47</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main one-room">
+        <section class="section section-one-room" id="1">
+            <div class="section-container">
+                <div class="section-content-wrapper">
+                    <div class="section-vertical-line">
+                        <div class="breadcrumbs" id="breadcrumbs">
+                            <a href="/">Главная</a> <span>/</span>
+                            <a href="/раздел-1/">Раздел 1</a> <span>/</span>
+                            <a href="/раздел-1/подраздел-1/">Подраздел 1</a> <span>/</span>
+                            Текущая страница
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <h1 class="section__title">Комплектация</h2>
+                        <p class="section__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section design-project target-block" id="2">
+            <div class="container">
+                <div class="design-project-wrapper">
+                    <div class="design-project-content">
+                        <h2 class="design-project__title">Заголовок описания услуги</h2>
+                        <p class="design-project__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras vitae
+                            lorem nisl. Phasellus a luctus leo, ac accumsan erat. Suspendisse tincidunt libero mauris,
+                            eget posuere metus dapibus ut.</p>
+                        <p class="design-project__subtitle">Quisque vitae eleifend nibh. Nulla dictum vel ex porttitor
+                            vulputate.
+                            Sed vel tellus nec tellus tincidunt sollicitudin</p>
+                    </div>
+                    <div class="design-project-img-wrapper">
+                        <img src="img/block-img.png" alt="интерьер" class="design-project__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section prices-services target-block" id="3">
+            <div class="container">
+                <h3 class="prices-services__title">Услуги</h3>
+                <div class="prices-services-wrapper">
+                    <div class="prices-services-item">
+                        <h4 class="prices-services-item__title prices-services-item-text_black">ЭСПРЕСС</h4>
+                        <p class="prices-per-metr prices-services-item-text_black">от 1100 руб./м²</p>
+                        <div class="included-services">
+                            <h5 class="included-services__title prices-services-item-text_black">Предлагаемый пакет
+                                услуг включает:</h5>
+                            <ul class="included-services-list">
+                                <li class="included-services__item prices-services-item-text_black">Планировки.</li>
+                                <li class="included-services__item prices-services-item-text_black">Расстановки мебели.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Привязки электрики.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Типа напольного
+                                    покрытия.</li>
+                                <li class="included-services__item prices-services-item-text_black">Дизайна потолков.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices-services-buttons">
+                            <a class="scroll-button" href="#consultation"><button
+                                    class="prices-services-order prices-services-item-text_black">Заказать</button></a>
+                            <a href="express.html"><button
+                                    class="prices-services-more prices-services-item-text_black">Подробнее</button></a>
+                        </div>
+                    </div>
+                    <div class="prices-services-item">
+                        <h4 class="prices-services-item__title prices-services-item-text_black">ТЕХНИЧЕСКИЙ ПРОЕКТ</h4>
+                        <p class="prices-per-metr prices-services-item-text_black">от 1600 руб./м²</p>
+                        <div class="included-services">
+                            <h5 class="included-services__title prices-services-item-text_black">Предлагаемый пакет
+                                услуг включает:</h5>
+                            <ul class="included-services-list">
+                                <li class="included-services__item prices-services-item-text_black">Планировки.</li>
+                                <li class="included-services__item prices-services-item-text_black">Расстановки мебели.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Привязки электрики.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Типа напольного
+                                    покрытия.</li>
+                                <li class="included-services__item prices-services-item-text_black">Дизайна потолков.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices-services-buttons">
+                            <a class="scroll-button" href="#consultation"><button
+                                    class="prices-services-order prices-services-item-text_black">Заказать</button></a>
+                            <a href="technical.html"><button
+                                    class="prices-services-more prices-services-item-text_black">Подробнее</button></a>
+                        </div>
+                    </div>
+                    <div class="prices-services-item">
+                        <h4 class="prices-services-item__title prices-services-item-text_black">КОМФОРТ</h4>
+                        <p class="prices-per-metr prices-services-item-text_black">от 2500 руб./м²</p>
+                        <div class="included-services">
+                            <h5 class="included-services__title prices-services-item-text_black">Предлагаемый пакет
+                                услуг включает:</h5>
+                            <ul class="included-services-list">
+                                <li class="included-services__item prices-services-item-text_black">Подробный комплект
+                                    рабочих чертежей для стройки.</li>
+                                <li class="included-services__item prices-services-item-text_black">Ведомость отделки.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">3D-визуализации с
+                                    наглядным и детальным представлением будущего интерьера. </li>
+                            </ul>
+                        </div>
+                        <div class="prices-services-buttons">
+                            <a class="scroll-button" href="#consultation"><button
+                                    class="prices-services-order prices-services-item-text_black">Заказать</button></a>
+                            <a href="comfort.html"><button
+                                    class="prices-services-more prices-services-item-text_black">Подробнее</button></a>
+                        </div>
+                    </div>
+                    <div class="prices-services-item">
+                        <h4 class="prices-services-item__title prices-services-item-text_black">ЭКСКЛЮЗИВ</h4>
+                        <p class="prices-per-metr prices-services-item-text_black">от 3000 руб./м²</p>
+                        <div class="included-services">
+                            <h5 class="included-services__title prices-services-item-text_black">Предлагаемый пакет
+                                услуг включает:</h5>
+                            <ul class="included-services-list">
+                                <li class="included-services__item prices-services-item-text_black">Планировка.</li>
+                                <li class="included-services__item prices-services-item-text_black">Расстановка мебели.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Подбор материалов.
+                                </li>
+                                <li class="included-services__item prices-services-item-text_black">Разработка
+                                    дизайн-концепции. </li>
+                                <li class="included-services__item prices-services-item-text_black">Внесение изменений и
+                                    одобрение.</li>
+                            </ul>
+                        </div>
+                        <div class="prices-services-buttons">
+                            <a class="scroll-button" href="#consultation"><button
+                                    class="prices-services-order prices-services-item-text_black">Заказать</button></a>
+                            <a href="exclusive.html"><button
+                                    class="prices-services-more prices-services-item-text_black">Подробнее</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-swiper1" id="4">
+            <div class="swiper-background">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/portfolio-1.png" class="mySwiper2__img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/portfolio-2.png" class="mySwiper2__img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/portfolio-1.png" class="mySwiper2__img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/portfolio-2.png" class="mySwiper2__img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-swiper-wrapper">
+                    <h1 class="swiper__title mySwiper2__title">Портфолио стильных и продуманных интерьеров</h1>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h5 class="swiper1__text">Дизайн проект квартиры 64 м²</h5>
+                            </div>
+                            <div class="swiper-slide">
+                                <h5 class="swiper1__text">Дизайн проект квартиры 100 м²</h5>
+                            </div>
+                            <div class="swiper-slide">
+                                <h5 class="swiper1__text">Дизайн интерьера дома 640 м²</h5>
+                            </div>
+                            <div class="swiper-slide">
+                                <h5 class="swiper1__text">Дизайн интерьера коттеджа 300 м²</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="portfolio.html"><button class="btn btn_black swiper1__button">Смотреть все
+                            портфолио</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-swiper5 target-block" id="5">
+            <div class="container">
+                <div class="section-swiper-wrapper">
+                    <div class="section-swiper5-content">
+                        <h1 class="swiper__title mySwiper5__title">Как мы работаем?</h1>
+                        <p class="swiper__subtitle mySwiper5__subtitle">Каждый из этапов работы будет выполняться строго
+                            по
+                            плану, а их количество будет зависеть от выбранного вами пакета услуг. Вы всегда будете
+                            оповещены о любых изменениях в проекте.</p>
+                    </div>
+                    <div class="swiper mySwiper5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">01</span>
+                                <h4 class="mySwiper5-slide__title">Знакомство <br>
+                                    с дизайнером</h4>
+                                <p class="mySwiper5-slide__subtitle">Сначала мы проведем с вами предварительную беседу.
+                                    Мы уточним ваши предпочтения, зафиксируем пожелания, уточним технические
+                                    подробности, определим предварительную стоимость.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">02</span>
+                                <h4 class="mySwiper5-slide__title">Начальный этап</h4>
+                                <p class="mySwiper5-slide__subtitle">На основе собранной информации, предложим
+                                    наиболее подходящего вашим замыслам дизайнера и организуем встречу в офисе. Вы
+                                    познакомитесь с дизайнером, изучите его работы, зададите все интересующие вопросы.
+                                    После знакомства, Вы сможете подписать Договор.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">03</span>
+                                <h4 class="mySwiper5-slide__title">Создание визуализации</h4>
+                                <p class="mySwiper5-slide__subtitle">Дизайнер выезжает на объект, производит обмерные
+                                    работы с фотофиксацией уточняет технические вопросы.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">04</span>
+                                <h4 class="mySwiper5-slide__title">Выдача чертежей</h4>
+                                <p class="mySwiper5-slide__subtitle">Совместно с дизайнером, Вы заполняете
+                                    техническое задание, утверждаем его и дизайнер приступает к созданию концепции и
+                                    проектированию.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">05</span>
+                                <h4 class="mySwiper5-slide__title">Сдача проекта</h4>
+                                <p class="mySwiper5-slide__subtitle">По завершении проектирования, будет создано
+                                    реалистичное трехмерное изображение помещений с мебелью и материалами, подобранными
+                                    с учетом ваших пожеланий.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <span class="swiper-slide-num">06</span>
+                                <h4 class="mySwiper5-slide__title">Сдача проекта</h4>
+                                <p class="mySwiper5-slide__subtitle">По окончании разработки дизайн-проекта, Вы
+                                    ознакомитесь со строительными чертежами с развертками, спецификацией материалов,
+                                    мебели и техники. После подписания Акта приемки работ, Вы получаете сброшюрованный
+                                    альбом дизайн-проекта интерьера, включающий в себя планы, визуализации, чертежи и
+                                    спецификацию материалов, мебели и техники и его электронную версию.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev">
+                    </div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section difference" id="6">
+            <div class="container">
+                <h4 class="difference__title">Ощути разницу</h4>
+                <div id="image-comparison">
+                    <img src="img/after.png" alt="фото после">
+                    <img src="img/before.png" alt="фото до">
+                </div>
+                <p class="difference__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                    ad
+                    dolores explicabo quae cum quia. Ad dolores iusto aliquid nam unde, ipsa error natus sit
+                    quia, pariatur dolor ea repellendus.</p>
+            </div>
+        </section>
+
+        <section class="section prices-consultation target-block" id="7">
+            <div class="container">
+                <div class="prices-consultation-wrapper">
+                    <h3 class="prices-consultation__title">Рассчитайте стоимость дизайн-проекта</h3>
+                    <form class="prices-consultation-form">
+                        <input type="text" class="prices-consultation__input prices-consultation__item"
+                            placeholder="Ваше имя">
+                        <input class="prices-consultation__input tel prices-consultation__item"
+                            placeholder="Ваш телефон" type="tel" name="tel">
+                        <a href="#" class="prices-consultation__link"><input type="submit"
+                                class="btn btn_yellow prices-consultation__button prices-consultation__item"
+                                value="Получить консультацию"></a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section prices-table target-block" id="8">
+            <div class="container">
+                <h3 class="prices-table__title">Стоимость разработки дизайн-проекта</h3>
+                <div class="table-wrapper">
+                    <table class="services-table">
+                        <tr class="table-header">
+                            <th>Вид деятельности</th>
+                            <th>Экспресс</th>
+                            <th>Технический проект</th>
+                            <th>Комфорт</th>
+                            <th>Эксклюзив</th>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    Обмерный план
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План проектируемого объекта с указанием начальных линейных размеров, высотных привязок и другой значимой информации</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Фотосъемка помещения
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">Фотофиксация состояния объекта до производства работ по ремонту</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    Три варианта планировки квартиры на выбор
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">Планировочные решения помещения с расстановкой мебели, со смонтированными и демонтированными перегородками</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    План расстановки мебели и оборудования
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">Утвержденный вариант планировки</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    Демонтажный план перегородок и конструкцийн
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План сноса перегородок, а также других элементов, которые необходимо отобразить</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    Монтажный план потолков и конструкций
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План монтажных работ по отделке потолочных покрытий и сборке коробов и др.</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    Чистовая 3D-визуализация
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">3D-изображение желаемого интерьера, являющееся приближенным к желаемому, в 3х ракурсах, с применением современного ПО - 3ds MAX.</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td>2 варианта</td>
+                            <td>3 варианта</td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    План отделки стен с указанием отделочного материала
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План отделочных работ по стенам с указанием наносимых финишных материалов</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План декоративной отделки полов
+                                    (плинтус, цоколь, поле, пилястр и т.д.)
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План отделочных работ по напольным покрытиям с применением традиционных и современных методик, придающих им эстетический вид</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План декоративной отделки потолков
+                                    (карниз, кессон, медальон и т.д.)
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План отделочных работ по напольным покрытиям с применением традиционных и современных методик, придающих им эстетический вид</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">
+                                    План раскладки плитки
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План отделочных работ по устройству плиточных покрытий по стенам с указанием линейных привязок</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План размещения осветительных приборов
+                                    и выключателей
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План размещения осветительных приборов и соответствующих им выключателей с необходимыми линейными и высотными привязками</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План монтажа розеток и электровыводов
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План размещения розеток и электровыводов с необходимыми линейными и высотными привязками</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План размещения теплого пола
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План с указанием зон монтажа матов теплого пола и датчиков управления</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">План размещения сантехнических приборов
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">План с указанием размещения сантехнических приборов и обозначения типов водоснабжения (ХВС, ГВС)</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Подбор отделочных материалов
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">Дистанционный подбор и согласование материалов с Заказчиком</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Выезд с дизайнером в салоны поставщиков
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td>1 выезд</td>
+                            <td>2 выезда</td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Авторский надзор дизайнером
+                                    <div class="icon-container-question">
+                                        <img src="img/question.svg" alt="" class="icon-container-img">
+                                        <div class="tooltip">Комплекс мероприятий, включающий в себя выезды на объект в рамках производства работ по проекту, а также консультации первые 3 месяца его реализации</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td>2 выезда</td>
+                            <td>4 выезда</td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Электронный альбом pdf
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <div class="icon-container">Цветной сброшюрованный альбом
+                                    в печатном виде (формат А3)
+                                </div>
+                            </td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M20.709 7.25L7.20898 20.75M7.20898 7.25L20.709 20.75" stroke="#AFAFAF"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                            <td><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <path d="M22.959 7.25L10.584 19.625L4.95898 14" stroke="#FF9900"
+                                            stroke-width="3.32683" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-wrapper">
+                    <table class="table-square">
+                        <tr class="table-header">
+                            <th>Площадь</th>
+                            <th>Экспресс</th>
+                            <th>Технический проект</th>
+                            <th>Комфорт</th>
+                            <th>Эксклюзив</th>
+                        </tr>
+                        <tr>
+                            <td>От 100 м²</td>
+                            <td>определяется сложностью ДП</td>
+                            <td>определяется сложностью ДП</td>
+                            <td>определяется сложностью ДП</td>
+                            <td>определяется сложностью ДП</td>
+                        </tr>
+                        <tr>
+                            <td>От 30 до 100 м²</td>
+                            <td>1100 руб/м²</td>
+                            <td>1600 руб/м²</td>
+                            <td>2500 руб/м²</td>
+                            <td>3000 руб/м²</td>
+                        </tr>
+                        <tr>
+                            <td>до 30 м²</td>
+                            <td>1100 руб/м² + 25%</td>
+                            <td>1600 руб/м² + 25%</td>
+                            <td>2500 руб/м² + 25%</td>
+                            <td>3000 руб/м² + 25%</td>
+                        </tr>
+                    </table>
+                </div>
+                <a class="scroll-button" href="#consultation"><button class="btn btn_black prices-table-button">Заказать</button></a>
+            </div>
+        </section>
+
+        <section class="section section-swiper2 target-block" id="9">
+            <div class="container">
+                <div class="section-swiper-wrapper">
+                    <h1 class="swiper__title mySwiper3__title">О нас говорят</h1>
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/review-1.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-2.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-3.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-4.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-5.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-6.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-7.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-8.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-9.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/review-10.png" alt="фото человека" class="people-img">
+                                <h4 class="mySwiper3__name">Морозова Екатерина, <br> SEO - Специалист</h4>
+                                <p class="mySwiper3__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer id condimentum lorem. Quisque molestie ultricies lacus eu pellentesque.
+                                    Donec tristique malesuada justo, nec viverra nulla viverra in. Donec facilisis
+                                    tellus in libero tempus, nec pharetra velit tincidunt. Sed nisl tellus, facilisis
+                                    nec arcu sed, bibendum maximus dolo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section all-articles target-block" id="10">
+            <div class="container">
+                <div class="all-articles-wrapper">
+                    <h2 class="all-articles__title">Статьи</h2>
+                    <div class="all-articles-items">
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Etiam nec elementum tur...</p>
+                                <a href="articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Etiam nec elementum tur...</p>
+                                <a href="articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Etiam nec elementum tur...</p>
+                                <a href="articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="all-articles-item">
+                            <div class="img-wrapper">
+                                <img src="img/all-articles-img-1.png" alt="превью статьи" class="article-img">
+                            </div>
+                            <div class="all-articles-content">
+                                <h4 class="all-articles-item__title">Название статьи</h4>
+                                <p class="all-articles-item__subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Etiam nec elementum tur...</p>
+                                <a href="articles.html" class="all-articles-item__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section article article_second" id="11">
+            <div class="container">
+                <div class="article-wrapper">
+                    <h3 class="article__title">Еще описание услуги</h3>
+                    <p class="article__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                    <p class="article__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas congue augue in porttitor.
+                        Praesent suscipit sit amet augue et vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae
+                        arcu. In
+                        tempus lacinia metus id consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis
+                        tincidunt
+                        malesuada. Quisque luctus vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non
+                        arcu
+                        porta, gravida lobortis turpis accumsan. Fusce vitae gravida eros.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Cras egestas congue augue in porttitor. Praesent suscipit sit amet
+                        augue et
+                        vulputate. Nunc ac nisl ac turpis feugiat venenatis a vitae arcu. In tempus lacinia metus id
+                        consectetur. Proin sit amet mauris sem. Morbi bibendum erat quis tincidunt malesuada. Quisque
+                        luctus
+                        vulputate nisi, ut commodo nunc sodales quis. Fusce posuere justo non arcu porta, gravida
+                        lobortis
+                        turpis accumsan. Fusce vitae gravida eros.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section consultation-questions" id="12">
+            <div class="container">
+                <div class="half">
+                    <h2 class="half__title">Остались вопросы?</h2>
+                    <div class="tab tab_first">
+                        <input id="tab-1" type="checkbox" name="tabs" class="tab-toogle">
+                        <label for="tab-1">1. Вопрос</label>
+                        <div class="tab-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, ipsum ac
+                                fermentum fringilla, felis mi luctus quam, non sodales est libero vitae purus.
+                                Pellentesque laoreet volutpat diam vitae imperdiet. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input id="tab-2" type="checkbox" name="tabs" class="tab-toogle">
+                        <label for="tab-2">2. Вопрос</label>
+                        <div class="tab-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, ipsum ac
+                                fermentum fringilla, felis mi luctus quam, non sodales est libero vitae purus.
+                                Pellentesque laoreet volutpat diam vitae imperdiet. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input id="tab-3" type="checkbox" name="tabs" class="tab-toogle">
+                        <label for="tab-3">3. Вопрос</label>
+                        <div class="tab-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, ipsum ac
+                                fermentum fringilla, felis mi luctus quam, non sodales est libero vitae purus.
+                                Pellentesque laoreet volutpat diam vitae imperdiet. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input id="tab-4" type="checkbox" name="tabs" class="tab-toogle">
+                        <label for="tab-4">4. Вопрос</label>
+                        <div class="tab-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, ipsum ac
+                                fermentum fringilla, felis mi luctus quam, non sodales est libero vitae purus.
+                                Pellentesque laoreet volutpat diam vitae imperdiet. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input id="tab-5" type="checkbox" name="tabs" class="tab-toogle">
+                        <label for="tab-5"> 5. Вопрос</label>
+                        <div class="tab-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, ipsum ac
+                                fermentum fringilla, felis mi luctus quam, non sodales est libero vitae purus.
+                                Pellentesque laoreet volutpat diam vitae imperdiet. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section prices-consultation target-block" id="consultation">
+            <div class="container">
+                <div class="prices-consultation-wrapper">
+                    <h3 class="prices-consultation__title">Получите консультацию дизайнера <br> по вашему проекту</h3>
+                    <form class="prices-consultation-form">
+                        <input type="text" class="prices-consultation__input prices-consultation__item"
+                            placeholder="Ваше имя">
+                        <input class="prices-consultation__input tel prices-consultation__item"
+                            placeholder="Ваш телефон" type="tel" name="tel">
+                        <a href="#" class="prices-consultation__link"><input type="submit"
+                                class="btn btn_yellow prices-consultation__button prices-consultation__item"
+                                value="Получить консультацию"></a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="section section_bottom target-block" id="14">
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="footer-requisites accordeon-item footer-item">
+                            <a href="index.html" class="footer__logo">Logo</a>
+                            <a href="portfolio.html" class="footer__title">Портфолио</a>
+                            <a href="contacts.html" class="footer__title">Контакты</a>
+                            <a href="prices.html" class="footer__title">Цены</a>
+                            <div class="links accordeon-content links footer-contacts-desktop">
+                                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                                <p class="footer__rights">Copyright ©2020-2022 <br> Все права защищены</p>
+                            </div>
+                        </div>
+                        <div class="footer-interior dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-4" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-4">О компании</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="blog.html" class="footer__link">Блог</a>
+                                <a href="reviews.html" class="footer__link">Отзывы</a>
+                                
+                            </div>
+                        </div>
+                        <div class="footer-design dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-5" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-5">Дизайн проект</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="apartaments.html" class="footer__link">Дизайн квартир</a>
+                                <a href="houses.html" class="footer__link">Дизайн домов</a>
+                                <a href="commercial-premisess.html" class="footer__link">Дизайн комм. <br>
+                                    недвижимости</a>
+                            </div>
+                        </div>
+                        <div class="footer-services dropdown-item accordeon-item footer-item">
+                            <input id="dropdown-item-6" type="checkbox" name="dropdown-items"
+                                class="dropdown-item-toogle">
+                            <label for="dropdown-item-6">Услуги</label>
+                            <div class="links accordeon-content dropdown-item-content">
+                                <a href="express.html" class="footer__link">Дизайн экспресс</a>
+                                <a href="technical.html" class="footer__link">Технический проект</a>
+                                <a href="comfort.html" class="footer__link">Дизайн комфорт</a>
+                                <a href="exclusive.html" class="footer__link">Дизайн эксклюзив</a>
+                                <a href="rendering-3d.html" class="footer__link">3D визуализация</a>
+                                <a href="architecture.html" class="footer__link">Архитектурный проект</a>
+                                <a href="homestaging.html" class="footer__link">Хоумстейджинг</a>
+                                <a href="equipment.html" class="footer__link">Комплектация/a>
+                            </div>
+                        </div>
+                        <div class="footer-contacts accordeon-item footer-item">
+                            <a href="tel:88126700747" class="footer__num">+7 ( 812 ) 670-07-47</a>
+                            <p class="footer__schedule">Пн - Пт 9:00 - 19:00</p>
+                            <a href="#"><button class="btn btn_white footer-call">Перезвоните мне</button></a>
+                            <div class="footer-social">
+                                <a href="#"><img src="img/instagram.svg" alt="instagram"
+                                        class="instagram footer__social-logo"></a>
+                                <a href="#"><img src="img/youtube.svg" alt="youtube"
+                                        class="youtube footer__social-logo"></a>
+                                <a href="#"><img src="img/telegram.svg" alt="telegram"
+                                        class="telegram footer__social-logo"></a>
+                            </div>
+                            <div class="links footer-contacts-mobile">
+                                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                                <p class="footer__rights">Copyright ©2020-2022 <br> Все права защищены</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
